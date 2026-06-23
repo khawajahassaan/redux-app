@@ -9,7 +9,7 @@ function App() {
 
     <div className="app-container">
       <main className="glass-panel">
-        <h1 className="title">Fetched List from DummyJSON</h1>
+        <h1 className="title">DummyJSON USERS LIST</h1>
         <MovieInput />
         <MovieList />
       </main>
