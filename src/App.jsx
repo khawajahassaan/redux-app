@@ -7,11 +7,13 @@ function App() {
 
   return (
 
-    <>
-      <MovieInput />
-      <MovieList />
-
-    </>
+    <div className="app-container">
+      <main className="glass-panel">
+        <h1 className="title">Fetched List from DummyJSON</h1>
+        <MovieInput />
+        <MovieList />
+      </main>
+    </div>
   );
 }
 
